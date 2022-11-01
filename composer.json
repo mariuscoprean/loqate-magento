@@ -1,0 +1,19 @@
+{
+    "name": "loqate/api-integration-test",
+    "description": "Performs address capture and data validation (email, phone number and address) using Loqate API.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Marius Coprean",
+            "homepage": "https://loqate.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Loqate\\ApiIntegration\\": ""
+        }
+    }
+}
